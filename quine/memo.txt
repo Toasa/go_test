@@ -1,0 +1,7 @@
+Self-reproducing Lempel-Ziv programs
+
+LZ(Lempel-Ziv): has only a repetition operator
+LZ compressed data: stream of instructions with two basic opcodes
+    literal(n): write n bytes into decompressed output
+	repeadt(d, n): look backward
+			
